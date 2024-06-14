@@ -1,2 +1,2 @@
-# team-project3
+# team-project
 チームでwebページを構築する演習
