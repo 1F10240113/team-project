@@ -1,0 +1,11 @@
+#container{
+    display:flex
+}
+
+#index{
+    width: 20%;
+}
+
+#mainpage{
+    width: 80%;
+}
