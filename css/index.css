@@ -10,4 +10,7 @@
     width: 75%;
 }
 
+#mainpage > img{
+    width: 400px;
+}
 #index {background-color: darkgray;}
