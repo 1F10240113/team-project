@@ -58,18 +58,119 @@ img{
 }
 
 #summery{
-    display:flex
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+   
 }
 
 #picture1{
-    width: 33%;
-    padding-left: 20px;
+    padding: 0%;
+    padding-right: 0%;
+    transition:all 2s ease-out;
+    justify-content: space-evenly;
+    margin: 0%;
+    margin-right: 0%;
+    position: relative;
+    flex: 1;
+    left: 10px;
+    
+}
+#picture1 img {
+    width: 67%;
+    
+}
+
+#picture1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 67%;
+    height: 96%;
+    background-color: rgba(128, 128, 128, 0.5); /* グレーの透過効果（50%透明） */
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+
+#picture1:hover::after {
+    opacity: 1;
 }
 
 #picture2{
-    width: 33%;
+    padding: 0%;
+    padding-right: 0%;
+    transition:all 2s ease-out;
+    justify-content: space-evenly;
+    margin: 0%;
+    margin-right: 0%;
+    position: relative;
+    flex: 1;
+    left: 10px;
+    
+}
+#picture2 img {
+    width: 67%;
+    
 }
 
+#picture2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 67%;
+    height: 96%;
+    background-color: rgba(128, 128, 128, 0.5); 
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+
+#picture2:hover::after {
+    opacity: 1;
+}
+
+
 #picture3{
-    width: 33%;
+    padding: 0%;
+    padding-right: 0%;
+    transition:all 2s ease-out;
+    justify-content: space-evenly;
+    margin: 0%;
+    margin-right: 0%;
+    position: relative;
+    flex: 1;
+    left: 10px;
+    
+}
+#picture3 img {
+    width: 67%;
+    
+}
+
+#picture3::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 67%;
+    height: 96%;
+    background-color: rgba(128, 128, 128, 0.5); 
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+
+#picture3:hover::after {
+    opacity: 1;
+}
+
+
+#comics>p{
+    text-align: center;
+    font-size: 45px;
+    margin-top: -30px;
+}
+
+#all>p{
+    text-align: right;
 }
