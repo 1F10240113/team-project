@@ -169,8 +169,13 @@ img{
     text-align: center;
     font-size: 45px;
     margin-top: -30px;
+    background-color: darkgray ;
 }
 
 #all>p{
     text-align: right;
+}
+
+#summery{
+    background-color: darkgray;
 }
