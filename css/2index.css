@@ -1,0 +1,33 @@
+#index {
+    background-color: darkgray;
+    width: 18%;
+    
+}
+#index > p{
+    text-align: center;
+}
+img{
+    width: 230px;
+}
+#overraytext{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: large;
+}
+#container{
+    display:flex
+}
+#mainpage{
+    width: 82%;
+}
+#mainpage > img{
+    width: 2000px;
+    opacity: 0.4;
+}
+body{
+    overflow-x: hidden;
+
+}
