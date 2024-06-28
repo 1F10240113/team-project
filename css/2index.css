@@ -11,7 +11,7 @@ img{
 }
 #overraytext{
     position: absolute;
-    top: 70%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-weight: bold;
@@ -25,9 +25,30 @@ img{
 }
 #mainpage > img{
     width: 2000px;
+    height: 3000px;
     opacity: 0.4;
 }
 body{
     overflow-x: hidden;
 
+}
+#picture1{
+    padding: 0%;
+    padding-right: 0%;
+    transition:all 2s ease-out;
+    justify-content: space-evenly;
+    margin: 0%;
+    margin-right: 0%;
+    position: relative;
+    flex: 1;
+    left: 10px;
+    
+}
+img.picture1 {
+    width: 750px;
+    height:300px;
+    }
+img.picture2{
+    width: 750px;
+    height:400px; 
 }
