@@ -1,6 +1,11 @@
 #container{display : flex;
 flex-direction : column}
 
-h1{align : center}
+h1{text-align: center}
 
+#main{width : 82%}
 
+#index{width : 18%;
+    background-color: darkgrey}
+
+img{}
